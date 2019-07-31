@@ -46,7 +46,8 @@ nav {
 	background: #fff;
 	position: fixed;
 	text-align: center;
-	height: 200px;
+	margin: -30px auto;
+	height: 230px;
 	width: 300px;
 	z-index: 3;
 }
