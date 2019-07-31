@@ -36,6 +36,10 @@ footer p {
 	color: #666;
 }
 
+section {
+	padding: 0 10px;
+}
+
 #wrapper {
 	padding: 0 30px;
 	margin: 0 auto;
