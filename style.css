@@ -17,6 +17,7 @@ a {
 	border-bottom: 1px solid #999;
 }
 
+a:hover,
 a:focus {
 	color: #1d73c4;
 	border-bottom: none;
@@ -127,11 +128,6 @@ nav ul li a {
 }
 
 @media only screen and (min-width: 1025px) {
-	a:hover {
-		color: #1d73c4;
-		border-bottom: none;
-	}
-
 	footer p {
 		font-size: 0.75em;
 		text-align: center;
