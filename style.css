@@ -43,11 +43,10 @@ footer p {
 }
 
 nav {
-	background: #fff;
+	background: rgba(255, 255, 255, 0.975);
 	position: fixed;
 	text-align: center;
-	margin: -30px auto;
-	height: 230px;
+	height: 200px;
 	width: 300px;
 	z-index: 3;
 }
@@ -86,7 +85,7 @@ nav ul li {
 	padding: 0 5px;
 	margin: 0;
 	list-style: none;
-	background: #fff;
+	background: rgba(255, 255, 255, 0.975);
 	font-size: 0.6em;
 	font-weight: bold;
 }
@@ -99,7 +98,7 @@ nav ul li a {
 .divider {
 	margin: -20px 0;
 	padding: -20px;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid rgba(221, 221, 221, 0.975);
 	z-index: 1;
 	position: relative;
 }
@@ -129,13 +128,6 @@ nav ul li a {
 }
 
 @media only screen and (min-width: 1025px) {
-	footer p {
-		font-size: 0.75em;
-		text-align: center;
-		line-height: normal;
-		color: #666;
-	}
-
 	#wrapper {
 		width: 80%;
 	}
