@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	padding: 40px 0;
+	color: #333;
+	font-size: 20px;
+	line-height: 1.7em;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	background: #fff;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid #999;
+}
+
+a:hover,
+a:focus {
+	color: #1d73c4;
+	border-bottom: none;
+}
+
+footer {
+	margin-top: 80px;
+	border-top: 1px solid #bbb;
+}
+
+footer p {
+	font-size: 0.75em;
+	text-align: center;
+	line-height: normal;
+	color: #666;
+}
+
+#wrapper {
+	padding: 0 80px;
+	margin: 0 auto;
+	width: 940px;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 940px;
+	z-index: 30;
+}
+
+nav h1, nav h2 {
+	color: #000;
+}
+
+nav h1 {
+	font-size: 2em;
+	margin: 0;
+	padding: 50px 0 0 0;
+}
+
+nav h1 a {
+	color: #000;
+	border-bottom: none;
+}
+
+nav h2 {
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+nav ul {
+	margin: 0 auto;
+	padding: 0 25px;
+	line-height: 1.5em;
+	height: 50px;
+	z-index: 20;
+	position: relative;
+	white-space: nowrap;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 20px;
+	margin: 0;
+	list-style: none;
+	background: #fff;
+	line-height: 50px;
+	font-size: 0.8em;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+nav ul li a {
+	border-bottom: none;
+	text-transform: uppercase;
+}
+
+.divider {
+	margin: -25px 0 25px 0;
+	padding: 0;
+	border-bottom: 1px solid #ddd;
+	z-index: 10;
+	position: relative;
+}
+
+#home article {
+	padding-top: 150px;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #fff;
+		background: #000;
+	}
+
+	a {
+		color: white;
+		border-bottom: 1px solid rgb(201, 199, 199);
+	}
+
+	a:hover,
+	a:focus {
+		color: #1dc49b;
+	}
+}
