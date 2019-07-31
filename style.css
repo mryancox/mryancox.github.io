@@ -43,7 +43,7 @@ section {
 #wrapper {
 	padding: 0 30px;
 	margin: 0 auto;
-	width: 300px;
+	width: 80%;
 }
 
 nav {
@@ -51,7 +51,7 @@ nav {
 	position: fixed;
 	text-align: center;
 	height: 200px;
-	width: 300px;
+	width: 80%;
 	z-index: 3;
 }
 
@@ -112,14 +112,6 @@ nav ul li a {
 }
 
 @media only screen and (min-width: 768px) {
-	#wrapper {
-		width: 650px;
-	}
-
-	nav {
-		width: 650px;
-	}
-
 	nav h2 {
 		line-height: 1.7em;
 	}
@@ -132,14 +124,6 @@ nav ul li a {
 }
 
 @media only screen and (min-width: 1025px) {
-	#wrapper {
-		width: 80%;
-	}
-
-	nav {
-		width: 80%;
-	}
-
 	nav h2 {
 		line-height: 1.7em;
 	}
