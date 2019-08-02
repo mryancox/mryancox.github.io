@@ -98,6 +98,14 @@ section {
 	font-size: 80px;
 }
 
+.tagline {
+	position: absolute;
+	top: 60%;
+	left: 10%;
+	font-size: 30px;
+	padding-right: 20px;
+}
+
 @media only screen and (max-width: 800px) {
 
 	.nav_links {
@@ -110,6 +118,10 @@ section {
 
 	.headline {
 		font-size: 60px;
+	}
+
+	.tagline {
+		font-size: 20px;
 	}
 }
 
