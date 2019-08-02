@@ -15,9 +15,9 @@
 		<a href="#hero" class="logo"><img href="#hero" src="img/logo.svg" alt="logo"></a>
 		<nav>
 			<ul class="nav_links">
-				<li><a href="#">About</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 		<a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
@@ -25,21 +25,22 @@
 	<div id="mobile_menu" class="overlay">
 		<a onclick="closeNav()" class="close">&times;</a>
 		<div class="overlay_content">
-			<a onclick="closeNav()" href="#">About</a>
-			<a onclick="closeNav()" href="#">Projects</a>
-			<a onclick="closeNav()" href="#">Contact</a>
+			<a onclick="closeNav()" href="#about">About</a>
+			<a onclick="closeNav()" href="#projects">Projects</a>
+			<a onclick="closeNav()" href="#contact">Contact</a>
 		</div>
 	</div>
-
-	<main>
-		<section>
-			<div id="hero" class="hero">
-				<img src="img/landing.jpg" alt="">
-				<h1 class="headline">Matthew Cox</h1>
-				<h2 class="tagline">Computer Scientist / Professional Geoscientist</h2>
-			</div>
-		</section>
-	</main>
+	<section class="container">
+		<div id="hero" class="hero">
+			<img src="img/landing.jpg" alt="">
+			<h1 class="headline">Matthew Cox</h1>
+			<h2 class="tagline">Computer Scientist / Professional Geoscientist</h2>
+		</div>
+		<div id="about" class="about">
+			<img src="img/about.jpg" alt="">
+			<h1 class="headerabout">About Me</h1>
+		</div>
+	</section>
 	<script type="text/javascript" src="mobile.js"></script>
 </body>
 

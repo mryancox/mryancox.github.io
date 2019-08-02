@@ -75,9 +75,10 @@ button:hover {
 	background-color: rgba(0, 136, 169, 0.8);
 }
 
-section {
+.container {
 	display: flex;
-	height: 100vh;
+	flex-direction: column;
+	height: 200vh;
 	justify-content: center;
 	align-items: center;
 }
@@ -106,6 +107,20 @@ section {
 	top: 360px;
 	padding-left: 20px;
 	font-size: 20px;
+	padding-right: 20px;
+}
+
+.about img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.headerabout {
+	position: absolute;
+	top: 1200px;
+	padding-left: 20px;
+	font-size: 50px;
 	padding-right: 20px;
 }
 
