@@ -2,12 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	background-color: #24252A;
 	overflow: hidden;
-}
-
-body {
-	background-color: #24252A;
 }
 
 li,
@@ -27,6 +22,7 @@ header {
 	padding: 30px 10%;
 	position: fixed;
 	width: 100%;
+	background-color: #24252A;
 }
 
 .logo {
