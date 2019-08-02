@@ -40,6 +40,7 @@ header {
 
 .nav_links {
 	list-style: none;
+	display: none;
 }
 
 .nav_links li {
@@ -56,7 +57,7 @@ header {
 }
 
 .menu {
-	display: none;
+	display: block;
 }
 
 button {
@@ -93,35 +94,74 @@ section {
 
 .headline {
 	position: absolute;
-	top: 50%;
-	left: 10%;
-	font-size: 80px;
+	top: 230px;
+	padding-left: 20px;
+	font-size: 50px;
+	padding-right: 20px;
 }
 
 .tagline {
 	position: absolute;
-	top: 60%;
-	left: 10%;
-	font-size: 30px;
+	top: 360px;
+	padding-left: 20px;
+	font-size: 20px;
 	padding-right: 20px;
 }
 
-@media only screen and (max-width: 800px) {
-
-	.nav_links {
-		display: none;
-	}
-
-	.menu {
-		display: inherit;
-	}
-
+@media only screen and (min-width: 375px) {
 	.headline {
+		top: 250px;
 		font-size: 60px;
 	}
 
 	.tagline {
-		font-size: 20px;
+		top: 400px;
+
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.nav_links {
+		display: inline-block;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.headline {
+		top: 400px;
+		left: 60px;
+		font-size: 80px;
+	}
+
+	.tagline {
+		top: 500px;
+		left: 60px;
+		font-size: 30px;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+
+	.nav_links {
+		display: inline-block;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.headline {
+		top: 400px;
+		left: 120px;
+		font-size: 80px;
+	}
+
+	.tagline {
+		top: 500px;
+		left: 120px;
+		font-size: 30px;
 	}
 }
 
