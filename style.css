@@ -75,7 +75,7 @@ button:hover {
 
 section {
 	display: flex;
-	height: 90vh;
+	height: 100vh;
 	justify-content: center;
 	align-items: center;
 }
