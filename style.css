@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	background-color: #24252A;
+	overflow-x: hidden;
 }
 
 body {
@@ -52,6 +53,12 @@ header {
 
 .menu {
 	display: none;
+}
+
+.landing {
+	min-width: 100%;
+	min-height: 100%;
+	height: 1080px;
 }
 
 button {
