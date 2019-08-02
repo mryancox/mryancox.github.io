@@ -76,7 +76,7 @@ button:hover {
 
 section {
 	display: flex;
-	height: 100vh;
+	height: 200vh;
 	justify-content: center;
 	align-items: center;
 }
@@ -108,7 +108,18 @@ section {
 	padding-right: 20px;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 375px) and (orientation: landscape) {
+	.headline {
+		top: 200px;
+		font-size: 60px;
+	}
+
+	.tagline {
+		top: 300px;
+	}
+}
+
+@media only screen and (min-width: 375px) and (orientation: portrait) {
 	.headline {
 		top: 250px;
 		font-size: 60px;
@@ -116,7 +127,6 @@ section {
 
 	.tagline {
 		top: 400px;
-
 	}
 }
 
