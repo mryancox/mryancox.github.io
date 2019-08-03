@@ -80,101 +80,66 @@ button:hover {
 	height: 200vh;
 	justify-content: center;
 	align-items: center;
+	margin: 0 auto;
 }
 
-.home {
-	overflow: hidden;
-	height: 100%;
-	width: 100%;
-}
-
-.home img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-.headline {
-	position: absolute;
-	top: 230px;
-	padding-left: 20px;
-	font-size: 50px;
-	padding-right: 20px;
-}
-
-.tagline {
-	position: absolute;
-	top: 360px;
-	padding-left: 20px;
-	font-size: 20px;
-	padding-right: 20px;
-}
-
+.home,
 .about {
 	overflow: hidden;
 	height: 100%;
 	width: 100%;
 }
 
+.home img,
 .about img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
 
+.headline,
 .about_headline {
 	position: absolute;
-	top: 930px;
-	padding-left: 20px;
 	font-size: 50px;
+	padding-top: 200px;
+	padding-left: 20px;
 	padding-right: 20px;
 }
 
+.tagline,
 .about_body {
 	position: absolute;
-	top: 1060px;
-	padding-left: 20px;
 	font-size: 20px;
+	padding-top: 330px;
+	padding-left: 20px;
 	padding-right: 20px;
 }
 
 @media only screen and (min-width: 375px) and (orientation: landscape) {
-	.headline {
-		top: 200px;
-		font-size: 60px;
-	}
 
-	.tagline {
-		top: 300px;
-	}
-
+	.headline,
 	.about_headline {
-		top: 900px;
+		padding-top: 100px;
 		font-size: 60px;
 	}
 
+	.tagline,
 	.about_body {
-		top: 1000px;
+		padding-top: 200px;
 	}
 }
 
 @media only screen and (min-width: 375px) and (orientation: portrait) {
-	.headline {
-		top: 250px;
-		font-size: 60px;
-	}
 
-	.tagline {
-		top: 400px;
-	}
-
+	.headline,
 	.about_headline {
-		top: 950px;
+		padding-top: 280px;
 		font-size: 60px;
 	}
 
+	.tagline,
 	.about_body {
-		top: 1100px;
+		padding-top: 450px;
 	}
 }
 
@@ -187,26 +152,16 @@ button:hover {
 		display: none;
 	}
 
-	.headline {
-		top: 400px;
-		padding-left: 80px;
-		font-size: 80px;
-	}
-
-	.tagline {
-		top: 500px;
-		padding-left: 80px;
-		font-size: 30px;
-	}
-
+	.headline,
 	.about_headline {
-		top: 1200px;
+		padding-top: 350px;
 		padding-left: 80px;
 		font-size: 80px;
 	}
 
+	.tagline,
 	.about_body {
-		top: 1300px;
+		padding-top: 450px;
 		padding-left: 80px;
 		font-size: 30px;
 	}
@@ -222,26 +177,16 @@ button:hover {
 		display: none;
 	}
 
-	.headline {
-		top: 400px;
-		padding-left: 140px;
-		font-size: 80px;
-	}
-
-	.tagline {
-		top: 500px;
-		padding-left: 140px;
-		font-size: 30px;
-	}
-
+	.headline,
 	.about_headline {
-		top: 1200px;
+		padding-top: 450px;
 		padding-left: 140px;
 		font-size: 80px;
 	}
 
+	.tagline,
 	.about_body {
-		top: 1300px;
+		padding-top: 550px;
 		padding-left: 140px;
 		font-size: 30px;
 	}
