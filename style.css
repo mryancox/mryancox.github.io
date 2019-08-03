@@ -119,13 +119,13 @@ button:hover {
 
 	.headline,
 	.about_headline {
-		padding-top: 100px;
+		padding-top: 150px;
 		font-size: 60px;
 	}
 
 	.tagline,
 	.about_body {
-		padding-top: 200px;
+		padding-top: 230px;
 	}
 }
 
