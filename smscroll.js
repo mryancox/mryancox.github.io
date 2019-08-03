@@ -1,7 +1,9 @@
 const navbarMenu = document.querySelector(".nav_bar");
 const navbarLinks = document.querySelectorAll(".nav_bar a");
+const mobileMenuLinks = document.querySelectorAll(".overlay a");
 
 navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
+mobileMenuLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
 
 function navbarLinkClick(event) {
 	smoothScroll(event);
