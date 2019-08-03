@@ -35,7 +35,6 @@ header {
 }
 
 .logo {
-
 	margin-right: auto;
 }
 
@@ -84,6 +83,7 @@ button:hover {
 }
 
 .hero {
+	overflow: hidden;
 	height: 100%;
 	width: 100%;
 }
@@ -111,6 +111,7 @@ button:hover {
 }
 
 .about {
+	overflow: hidden;
 	height: 100%;
 	width: 100%;
 }
@@ -121,11 +122,19 @@ button:hover {
 	object-fit: cover;
 }
 
-.headerabout {
+.about_headline {
 	position: absolute;
-	top: 1200px;
+	top: 930px;
 	padding-left: 20px;
 	font-size: 50px;
+	padding-right: 20px;
+}
+
+.about_body {
+	position: absolute;
+	top: 1060px;
+	padding-left: 20px;
+	font-size: 20px;
 	padding-right: 20px;
 }
 
@@ -138,6 +147,15 @@ button:hover {
 	.tagline {
 		top: 300px;
 	}
+
+	.about_headline {
+		top: 900px;
+		font-size: 60px;
+	}
+
+	.about_body {
+		top: 1000px;
+	}
 }
 
 @media only screen and (min-width: 375px) and (orientation: portrait) {
@@ -148,6 +166,15 @@ button:hover {
 
 	.tagline {
 		top: 400px;
+	}
+
+	.about_headline {
+		top: 950px;
+		font-size: 60px;
+	}
+
+	.about_body {
+		top: 1100px;
 	}
 }
 
@@ -162,13 +189,25 @@ button:hover {
 
 	.headline {
 		top: 400px;
-		left: 60px;
+		padding-left: 80px;
 		font-size: 80px;
 	}
 
 	.tagline {
 		top: 500px;
-		left: 60px;
+		padding-left: 80px;
+		font-size: 30px;
+	}
+
+	.about_headline {
+		top: 1200px;
+		padding-left: 80px;
+		font-size: 80px;
+	}
+
+	.about_body {
+		top: 1300px;
+		padding-left: 80px;
 		font-size: 30px;
 	}
 }
@@ -185,13 +224,25 @@ button:hover {
 
 	.headline {
 		top: 400px;
-		left: 120px;
+		padding-left: 140px;
 		font-size: 80px;
 	}
 
 	.tagline {
 		top: 500px;
-		left: 120px;
+		padding-left: 140px;
+		font-size: 30px;
+	}
+
+	.about_headline {
+		top: 1200px;
+		padding-left: 140px;
+		font-size: 80px;
+	}
+
+	.about_body {
+		top: 1300px;
+		padding-left: 140px;
 		font-size: 30px;
 	}
 }
